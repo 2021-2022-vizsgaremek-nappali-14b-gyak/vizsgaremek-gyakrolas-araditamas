@@ -9,11 +9,17 @@ namespace Vizsgaremek.Navigation
 {
     public static class Navigate
     {
+        //eltároljuk a MainWindow, hogy tudjuk váltani ablakot (pages)
         public static MainWindow mainWindow;
 
+        /// <summary>
+        /// Egy új ablakra vált
+        /// </summary>
+        /// <param name="userControl">Erre az ablakra váltunk</param>
         public static void Navigation(UserControl userControl)
         {
             mainWindow.PageContent.Children.Add(userControl);
         }
     }
+
 }
