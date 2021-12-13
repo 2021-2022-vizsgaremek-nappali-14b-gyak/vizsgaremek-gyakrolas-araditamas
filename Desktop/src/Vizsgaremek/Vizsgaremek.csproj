@@ -3,7 +3,23 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <UseWPF>true</UseWPF>
+	  <PublishSingleFile>true</PublishSingleFile>
+	  <SelfContained>false</SelfContained>
+	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+	  <UseWPF>true</UseWPF>
+
+	  <Version>0.0.1</Version>
+
+	  <Company>Vasvari</Company>
+
+	  <Authors>Aradi Tamás</Authors>
+
+	  <Product>UI</Product>
+
+	  <Description>Kilépés gomb nem működik</Description>
+
+	  <AssemblyVersion>0.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
 </Project>
