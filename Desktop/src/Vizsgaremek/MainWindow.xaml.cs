@@ -31,10 +31,6 @@ namespace Vizsgaremek
             Navigate.mainWindow = this;
             //Létrehozzuk a nyitó "UserControl" (WelcomePage)
 
-            //Statikus osztály Navigate
-            //Eltárolja a nyitó ablakot, hogy azon tudjuk módosítani a "page"-ket
-            Navigate.mainWindow = this;
-
             // Létrehozzuk a nyitó "UserControl" (WelcomePage)
             WelcomePage welcomePage = new WelcomePage();
 
