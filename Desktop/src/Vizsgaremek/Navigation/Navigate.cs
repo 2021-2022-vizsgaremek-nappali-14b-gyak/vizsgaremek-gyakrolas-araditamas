@@ -24,10 +24,12 @@ namespace Vizsgaremek.Navigation
         }
 
 
-        public static void Navigation(Page userPage)
+        //Teljes oldal átírása a
+        //Teljes képernyő megváltoztatása
+        public static void NavigationToFullScreen(Page userPage)
         {
             mainWindow.PageContent.Children.Clear();
-            mainWindow.PageContent.Children.Add(userPage);
+            mainWindow.Content=userPage;
         }
     }
 }
