@@ -23,12 +23,8 @@ namespace Vizsgaremek.Navigation
             mainWindow.PageContent.Children.Add(userControl);
         }
 
-
-        //Teljes oldal átírása a
-        //Teljes képernyő megváltoztatása
         public static void NavigationToFullScreen(Page userPage)
-        {
-            mainWindow.PageContent.Children.Clear();
+        {           
             mainWindow.Content=userPage;
         }
     }
