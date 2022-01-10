@@ -7,9 +7,9 @@
 	  <SelfContained>false</SelfContained>
 	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
 	  <UseWPF>true</UseWPF>
-	  <Version>0.1.0.1</Version>
+	  <Version>0.1.0.2</Version>
 	  <Authors>Aradi Tamás</Authors>
-	  <Company>Vasvári</Company>
+	  <Company>Vasvari</Company>
 	  <Product />
 	  <Description>Vizsgaremek</Description>
 	  <Copyright></Copyright>

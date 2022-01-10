@@ -60,8 +60,8 @@ namespace Vizsgaremek.Models
 
         private async void GetGithubCollaboratorsName()
         {
-            string reponame = "gycsaba-vasvari";
-            int repoId = 431763351;
+            string reponame = "vizsgaremek-gyakrolas-araditamas";
+            int repoId = 431761949; 
             var client = new GitHubClient(new ProductHeaderValue(reponame));
 
             // fejlesztők meghatározása
